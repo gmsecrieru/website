@@ -1,0 +1,12 @@
+{
+  "deploy" : {
+    "production" : {
+      "user" : "george",
+      "host" : "gmsecrie.ru",
+      "ref"  : "origin/master",
+      "repo" : "git@github.com:gmsecrieru/website.git",
+      "path" : "/var/www/gmsecrie.ru/website",
+      "post-deploy" : "source deploy.sh"
+    }
+  }
+}

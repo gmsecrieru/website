@@ -1,0 +1,12 @@
+{
+  "apps": [{
+    "name": "gmsecrie.ru",
+    "exec_mode": "cluster_mode",
+    "instances": "1",
+    "log_date_format": "YYYY-MM-DD HH:mm:ss SSS",
+    "script": "index.js",
+    "out_file": "./logs/app.log",
+    "error_file": "./logs/err.log",
+    "port": "3000"
+  }]
+}

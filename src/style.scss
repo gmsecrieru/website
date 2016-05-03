@@ -1,0 +1,49 @@
+$bgColor: #2198f3;
+
+$defaultFontStack: 'Open Sans', Helvetica, Arial, sans-serif;
+$defaultFontSize: 36px;
+$defaultFontColor: #77BEF5;
+
+$headerFontStack: 'Libre Baskerville';
+$headerFontSize: 50px;
+$headerFontColor: #0367B4;
+
+$highlightFontColor: #FFC413;
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+body{
+  background-color: $bgColor;
+  color: $defaultFontColor;
+  font-family: $defaultFontStack;
+  font-size: $defaultFontSize;
+  padding: 1em;
+}
+
+h1 {
+  color: $headerFontColor;
+  font-family: $headerFontStack;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+p {
+  padding-bottom: 0.75em;
+
+  em {
+    color: $headerFontColor;
+  }
+}
+
+.highlight {
+  color: $highlightFontColor;
+}
